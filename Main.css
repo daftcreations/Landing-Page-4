@@ -1,0 +1,59 @@
+body
+{
+  margin:0px;
+}
+.main
+{
+  height: 100vh;
+  width:100%;
+  background-color:black;
+  background-image:url('snake.jpg');
+  background-size:70% 100%;
+  background-repeat:no-repeat;
+  background-position: center;
+}
+.logo{
+  position: absolute;
+  top:20px;
+  left:7%;
+  transform:translateX(-50%);
+}
+.logo img{
+  width:150;
+}
+.menu{
+  position: absolute;
+  top:50%;
+  left:-170px;
+  transform:translateY(-50%) rotate(-90deg);
+}
+.menu ul{
+  list-style:none;
+}
+.menu ul li{
+  display:inline-block;
+  margin-left:60px;
+  font-family: arial;
+  font-size:11px;
+  color:white;
+  letter-spacing:5px;
+}
+.leaf1{
+  width:300px;
+  position: absolute;
+  bottom:0px;
+}
+.leaf2{
+  width:300px;
+  position: absolute;
+  right:0px;
+}
+.socialmedia{
+  position: absolute;
+  bottom:50px;
+  right:40px;
+}
+.socialmedia ul li img{
+  width:20px;
+  margin-top:10px;
+}
